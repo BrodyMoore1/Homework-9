@@ -3,10 +3,10 @@ library(shinydashboard)
 dashboardPage(
   dashboardHeader(),
   dashboardSidebar(
-    numericInput("sl", "Sepal Length",1),
-    numericInput("sw", "Sepal Width",2),
-    numericInput("pl", "Petal Length",3),
-    numericInput("pw", "Petal Width",4)
+    numericInput("sl", "Sepal Length",6),
+    numericInput("sw", "Sepal Width",3),
+    numericInput("pl", "Petal Length",4),
+    numericInput("pw", "Petal Width",1)
   ),
   dashboardBody(
     fluidRow(
